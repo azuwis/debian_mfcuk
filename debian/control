@@ -1,0 +1,15 @@
+Source: mfcuk
+Section: utils
+Priority: extra
+Maintainer: Zhong Jianxin <azuwis@gmail.com>
+Build-Depends: debhelper (>=9), dh-autoreconf, libnfc-dev (>= 1.7.0~rc1), pkg-config
+Standards-Version: 3.9.4
+Homepage: https://github.com/nfc-tools/mfcuk
+Vcs-Git: https://github.com/nfc-tools/mfcuk.git
+Vcs-Browser: https://github.com/nfc-tools/mfcuk
+
+Package: mfcuk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: MiFare Classic Universal toolKit
+ MFCUK is a key recovery tool for MIFARE Classic.
